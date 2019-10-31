@@ -9,6 +9,6 @@ This is a "splash screen"-like function. It uses PySimpleGUI (tkinter, Windows) 
 
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/31192003/67912084-5b579c80-fb4e-11e9-9acb-208e373a1ae6.gif)
 
-You can call this function at the start of your program to emulate a splash screen.
-The gif has to be of the type that is one picture per frame (including background and static pixels).
-You can create/edit gifs using GIMP.
+- You can call this function at the start of your program to emulate a splash screen.
+- The gif has to be of the type that is one picture per frame (including background and static pixels).
+- You can create/edit gifs using GIMP.
