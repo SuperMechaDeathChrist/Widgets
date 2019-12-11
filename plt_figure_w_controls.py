@@ -36,8 +36,6 @@ class Toolbar(NavigationToolbar2Tk):
 #-------------------------------
 
 #------------------------------- PySimpleGUI CODE
-x = np.linspace(0, 2 * np.pi)
-y = np.sin(x)
 
 layout = [
     [sg.T('Graph: y=sin(x)')],
@@ -80,7 +78,8 @@ while True:
         #------------------------------- you have to play with this size to reduce the movement error when the mouse hovers over the figure, it¿s close to canvas size
         fig.set_size_inches(404 * 2 / float(DPI), 404 / float(DPI))
         #-------------------------------
-
+        x = np.linspace(0, 2 * np.pi)
+        y = np.sin(x)
         plt.plot(x, y)
         plt.title('y=sin(x)')
         plt.xlabel('X')
