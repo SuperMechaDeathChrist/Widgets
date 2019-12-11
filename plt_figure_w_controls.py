@@ -75,7 +75,7 @@ while True:
         plt.figure(1)
         fig = plt.gcf()
         DPI = fig.get_dpi()
-        #------------------------------- you have to play with this size to reduce the movement error when the mouse hovers over the figure, it¿s close to canvas size
+        #------------------------------- you have to play with this size to reduce the movement error when the mouse hovers over the figure, it's close to canvas size
         fig.set_size_inches(404 * 2 / float(DPI), 404 / float(DPI))
         #-------------------------------
         x = np.linspace(0, 2 * np.pi)
