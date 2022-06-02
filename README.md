@@ -1,7 +1,7 @@
 # Widgets
 Widgets for user interfaces in Python
 
-I'll upload some widgeys and code related to UIs in Python, mainly using PySimpleGUI, Kivy and tkinter.
+I'll upload some widgets and code related to UIs in Python, mainly using PySimpleGUI, Kivy and tkinter.
 
 # Splash.py
 
